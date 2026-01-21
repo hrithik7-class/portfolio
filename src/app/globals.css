@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@tailwind utilities;
+
+
+.montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --font-outfit: 'Outfit', sans-serif;
+  --font-jetbrains-mono: 'JetBrains Mono', monospace;
+}
+
+html {
+  background-color: #ffffff;
+}
+
+.dark html {
+  background-color: #000000;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: #ffffff;
+  color: #09090b;
+}
+
+.dark body {
+  background-color: #000000;
+  color: #fafafa;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.dark .glass {
+  background: rgba(9, 9, 11, 0.7);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
