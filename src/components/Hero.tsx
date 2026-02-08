@@ -186,7 +186,7 @@ const Hero: React.FC = () => {
             <p className="text-base montserrat-regular md:text-2xl text-black dark:text-zinc-400
              mb-10 max-w-xl leading-relaxed font-light ">
               Hi, I&apos;m Hrithik, a Full Stack Web Developer with 
-              <span className='text-[#cc6100]' > 6  </span> 
+              <span className='text-[#cc6100]' > 7  </span> 
               months of hands-on experience. I&apos;ve built and deployed more than  
               <span className='text-[#cc6100]' > 2 </span> 
               full-stack products for companies, focusing on 

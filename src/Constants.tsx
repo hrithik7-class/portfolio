@@ -1,23 +1,19 @@
 import React from 'react';
 import {
-  Terminal,
+
   Github,
   Linkedin,
   Twitter,
-  ExternalLink,
-  Code2,
-  Cpu,
-  Globe
+
 } from 'lucide-react';
 
 import {
   FaReact,
   FaNodeJs,
-  FaPython,
+
   FaDocker,
   FaAws,
   FaGitAlt,
-  FaDatabase
 } from 'react-icons/fa';
 
 import {
@@ -25,10 +21,8 @@ import {
   SiTailwindcss,
   SiPostgresql,
   SiMongodb,
-  SiNextdotjs,
   SiFramer,
   SiVercel,
-  SiGraphql,
   SiMysql
 } from 'react-icons/si';
 import { Project, BlogPost, SkillCategory } from '@/types';
@@ -70,33 +64,54 @@ an admin dashboard to monitor all activities and ensure smooth operations across
     id: '4',
     title: 'Findme Metrimony WebApp',
     description: `Created a full-featured marriage matrimony platform that allows users to find their
-perfect match with complete control over their profiles and interactions. Implemented secure payment
-integration, responsive UI/UX, and scalable backend architecture to enhance overall user engagement and trust.`,
+    perfect match with complete control over their profiles and interactions. Implemented secure payment
+    integration, responsive UI/UX, and scalable backend architecture to enhance overall user engagement and trust.`,
     tags: ['TypeScript', 'Tailwind css', 'Framer', 'Jwt Auth', 'REACT/Next.js', 'Prisma', 'Postgresql', 'Clodinary'],
     image: '/images/showcastImg4.jpeg',
     link: 'https://matrimony-iota.vercel.app/',
     github: '#'
+  }, {
+    id: '5',
+    title: 'Quik Serv Technology',
+    description: `This website is built with modern web technologies to provide a fast, smooth, and 
+    secure booking experience. Seamless navigation, responsive design, and secure Razorpay payments 
+    ensure hassle-free service from start to finish.`,
+    tags: ['JavaScript', 'Tailwind css', 'Framer-motion', 'Razor Pay', 'REACT' , 'React-Router-Dom'],
+    image: '/images/showcastImg55.png',
+    link: 'https://ticket-link.vercel.app',
+    github: '#'
+  },
+   {
+    id: '6',
+    title: 'Aroma Frenchise',
+    description: `This website presents a transparent, data-backed franchise opportunity designed 
+    for modern operators. It clearly explains the 3-brand business model, investment structure, 
+    and profit potential to help entrepreneurs make informed decisions.`,
+    tags: ['TypeScript', 'Tailwind css', 'Framer-motion', 'Node-mailer', 'REACT/Next.js' , 'React-icons'],
+    image: '/images/showcastImg6.png',
+    link: 'https://franchise.aromachai.in',
+    github: '#'
   },
   {
-    id: '5',
+    id: '7',
     title: 'FundRaise Portal',
     description: `Secure payment processing module built with Next.js App Router, Stripe for 
     seamless checkout flows, and Kinde authentication—enabling protected subscription handling
      and user-specific billing in modern web apps.`,
     tags: ['React', 'Tailwind css', 'Framer', 'Jwt Auth', 'Javascript', 'MongoDB'],
-    image: '/images/showcastImg5.png',
+    image: '/images/showcastImg7.png',
     link: 'https://matrimony-iota.vercel.app/',
     github: '#'
   },
   {
-    id: '6',
+    id: '8',
     title: 'E-Commerce WebApp',
     description: `A web-based fundraising portal that enables users to raise funds transparently while 
     tracking every contribution in real time. The platform maintains detailed records of each user’s 
     fundraising progress and automatically rewards participants based on their performance, ensuring trust,
      motivation, and engagement throughout the campaign.`,
     tags: ['React', 'Tailwind css', 'Framer', 'Redis', 'Javascript', 'MongoDB', 'JWT Auth', 'Stripe', 'Clodinary'],
-    image: '/images/showcastImg6.jpeg',
+    image: '/images/showcastImg8.jpeg',
     link: 'https://mern-e-commerce-web.onrender.com/',
     github: '#'
   },
